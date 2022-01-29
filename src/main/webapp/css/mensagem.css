@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#caixa {
+    height: 400px;
+    width: 650px;
+    border: 1px solid black;
+    gap: 8px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#resultado {
+    min-height: 300px;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box {
+    margin-left: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.info {
+    font-size: 1.1rem;
+}
+
+.escolha {
+    font-weight: bold;
+    color: blue;
+}
+
+h3 {
+    color: green;
+    margin-left: 50px;
+}

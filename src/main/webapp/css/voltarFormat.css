@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.formatVoltar {
+    display: block;
+    height: 40px;
+    width: 80px;
+    background-color: rgba(186, 182, 182, 0.823);
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 35px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}

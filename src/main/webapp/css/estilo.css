@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
+}
+
+.container {
+    height: inherit;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    height: 80px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo h1 {
+    color: #c7c2c2;
+    font-weight: normal;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+#menu {
+    height: 80px;
+    width: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu-item {
+    height: 80px;
+    width: 170px;
+    text-align: center;
+    padding-top: 33px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.menu-item:hover, .sub-menu:hover{
+    background-color: chocolate;
+    color: #000000;
+    cursor: pointer;
+}
+
+#menu-drop {
+    width: 150px;
+    height: 450;
+    margin-top: 15px;
+    position: relative;
+    top: 12px;
+    left: -75px;
+    display: none;
+}
+
+.menu-item:hover > #menu-drop{
+    display: block;
+}
+
+.sub-menu{
+    width: 350px;
+    padding: 50px;
+    background-color: #000000;
+    list-style: none;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+#logout {
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logout img {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+#logout a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}

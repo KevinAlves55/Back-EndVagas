@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+body {
+    background-color: white;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
